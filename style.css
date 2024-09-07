@@ -1,0 +1,92 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(123, 187, 87);
+    align-items: center;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+    font-size: larger;
+    margin: 1cm;
+    display: inline-block;
+    background-color: beige;
+    padding: 0.3cm;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    overflow: hidden;
+}
+.nosotros {
+    font-family:'Gill Sans MT';
+    font-size: 130%;
+    background-color: beige;
+    margin: 1cm;
+    padding: 0.5cm;
+    display: flex;
+}
+.carrusel {
+    margin: 1cm;
+}
+.cajas {
+    font-family: 'Franklin Gothic Medium';
+    font-size: medium;
+    font-style: oblique;
+    background-color: rgb(123, 187, 87);
+    padding: 0.5cm;
+    margin: 2cm;
+    display: flex;
+    justify-content: center;
+}
+.cajas2 {
+    margin: 1cm;
+}
+.cajas2 img{
+    margin: 0.5cm;
+}
+.cajas2 h2{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 150%;
+    font-style: oblique;
+    margin-left: 15%;
+    background-color: rgb(177, 228, 161);
+    padding: 0.5cm;
+}
+.cajas2 p {
+    font-family: 'Times New Roman';
+    font-size: 130%;
+    background-color: beige;
+    padding: 1cm;
+}
+footer p {
+    background-color: beige;
+    font-size: medium;
+    font-family: 'Times New Roman';
+    padding: 0.3cm;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
